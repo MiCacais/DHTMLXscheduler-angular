@@ -1,4 +1,4 @@
-# DHTMLXscheduler-angular
+# DHTMLXscheduler + Angular 5
 This is an updated code of the amazing DHTMLX scheduler with Angular 5
 
 DHTMLX scheduler is an extensive JavaScript API that helps with the development of calendars (see https://dhtmlx.com/). It has a wide range of views and features for scheduling.
