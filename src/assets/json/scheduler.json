@@ -1,14 +1,39 @@
-[
-    {
-        "id": "1",
-        "start_date": "2018-04-12 00:00",
-        "end_date": "2018-04-12 13:00",
-        "text": "Event 1"
-    },
-    {
-        "id": "2",
-        "start_date": "2018-04-14 00:00",
-        "end_date": "2018-04-14 13:00",
-        "text": "Event 2"
+{ 
+    "data":[
+       {
+           "id":"1",
+           "start_date":"2018-04-12 00:00:00",
+           "end_date":"2018-04-12 00:00:00",
+           "text":"dblclick me!",
+           "type":"1"
+       },
+       {
+           "id":"2",
+           "start_date":"2018-04-09 00:00:00",
+           "end_date":"2018-04-11 00:00:00",
+           "text":"and me!",
+           "type":"2"
+       },
+       {
+           "id":"3",
+           "start_date":"2018-03-16 00:00:00",
+           "end_date":"2018-03-18 00:00:00",
+           "text":"and me too!",
+           "type":"3"
+       },
+       { 
+           "id":"4",
+           "start_date":"2018-03-02 08:00:00",
+           "end_date":"2018-03-02 14:10:00",
+           "text":"Type 2 event",
+           "type":"2"
+       }
+    ], 
+    "collections": {
+       "sections":[
+          {"value":"1","label":"Simple"},
+          {"value":"2","label":"Complex"},
+          {"value":"3","label":"Unknown"}
+       ]
     }
-]
+ }

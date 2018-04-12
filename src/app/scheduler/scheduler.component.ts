@@ -24,20 +24,6 @@ export class SchedulerComponent implements OnInit {
       this.data = res;
       scheduler.parse(this.data, "json");
     });
-
-    // scheduler.config.xml_date = "%Y-%m-%d %H:%i";
-    // scheduler.init(this.schedulerContainer.nativeElement);
-    //   this.eventService.get('scheduler.json').subscribe(res => {
-    //     this.data = res;
-    //     console.log(this.data);
-    // });
-
-    // .then((data) => {
-    //      scheduler.parse(data, "json");
-    // });
-    // this.appService.get('produtos.json').subscribe(res => {
-    //   this.products = res;
-    // });
   }
 
 }
